@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
   --primary-white: #ffffff;
   --primary-black: #0a0a0a;
   --dark-gray: #1a1a1a;
@@ -14,7 +14,18 @@
   --neon-green: #00ff88;
   --neon-green-dark: #00cc6a;
   --text-gray: #b0b0b0;
+} */
+
+:root {
+  --primary-white: #ffffff;
+  --primary-black: #ffffff;
+  --dark-gray: #1a1a1a;
+  --medium-gray: #2a2a2a;
+  --neon-green: #4ff0fc;
+  --neon-green-dark: #27c7f8;
+  --text-gray: #b0b0b0;
 }
+
 
 html {
   scroll-behavior: smooth;
