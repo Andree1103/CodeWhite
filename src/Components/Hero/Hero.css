@@ -6,6 +6,7 @@
   position: relative;
   overflow: hidden;
   padding: 100px 20px 60px;
+  background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
 }
 
 .hero-background {
@@ -21,14 +22,14 @@
   position: absolute;
   border-radius: 50%;
   filter: blur(80px);
-  opacity: 0.3;
+  opacity: 0.1;
   animation: float 20s ease-in-out infinite;
 }
 
 .orb-1 {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, var(--neon-green), transparent);
+  background: radial-gradient(circle, var(--sky-blue), transparent);
   top: -200px;
   right: -200px;
 }
@@ -36,7 +37,7 @@
 .orb-2 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, #0066ff, transparent);
+  background: radial-gradient(circle, #3b82f6, transparent);
   bottom: -150px;
   left: -150px;
   animation-delay: -5s;
@@ -59,12 +60,13 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(0, 255, 136, 0.1);
+  background: rgba(0, 180, 216, 0.1);
   padding: 8px 16px;
   border-radius: 50px;
   margin-bottom: 2rem;
   font-size: 0.9rem;
-  border: 1px solid rgba(0, 255, 136, 0.2);
+  border: 1px solid rgba(0, 180, 216, 0.2);
+  color: var(--sky-blue);
 }
 
 .hero-title {
@@ -72,10 +74,11 @@
   font-weight: 800;
   margin-bottom: 1.5rem;
   line-height: 1.2;
+  color: var(--text-dark);
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, var(--neon-green), #00ccff);
+  background: linear-gradient(135deg, var(--sky-blue), #3b82f6);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -114,7 +117,7 @@
   display: block;
   font-size: 2rem;
   font-weight: 800;
-  color: var(--neon-green);
+  color: var(--sky-blue);
 }
 
 .stat-label {

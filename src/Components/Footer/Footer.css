@@ -1,7 +1,7 @@
 .footer {
-  background: var(--primary-black);
+  background: var(--bg-white);
   padding: 60px 0 20px;
-  border-top: 1px solid rgba(0, 255, 136, 0.1);
+  border-top: 1px solid var(--border-color);
 }
 
 .footer-content {
@@ -14,10 +14,11 @@
 .footer-brand h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
+  color: var(--text-dark);
 }
 
 .footer-brand .highlight {
-  color: var(--neon-green);
+  color: var(--sky-blue);
 }
 
 .footer-brand p {
@@ -29,6 +30,7 @@
 .footer-social h4 {
   margin-bottom: 1rem;
   font-size: 1.1rem;
+  color: var(--text-dark);
 }
 
 .footer-links a {
@@ -40,7 +42,7 @@
 }
 
 .footer-links a:hover {
-  color: var(--neon-green);
+  color: var(--sky-blue);
 }
 
 .social-icons {
@@ -49,32 +51,33 @@
 }
 
 .social-icons a {
-  background: var(--dark-gray);
+  background: var(--bg-light);
   padding: 10px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.social-icons a svg {
+  color: var(--text-dark);
 }
 
 .social-icons a:hover {
-  background: var(--neon-green);
+  background: var(--sky-blue);
   transform: translateY(-3px);
 }
 
 .social-icons a:hover svg {
-  color: var(--primary-black);
-}
-
-.social-icons svg {
   color: var(--primary-white);
 }
 
 .footer-bottom {
   text-align: center;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid var(--border-color);
   display: flex;
   justify-content: space-between;
   align-items: center;

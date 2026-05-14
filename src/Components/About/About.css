@@ -1,6 +1,6 @@
 .about {
   padding: 80px 0;
-  background: linear-gradient(135deg, var(--primary-black), var(--dark-gray));
+  background: var(--bg-light);
 }
 
 .about-content {
@@ -30,13 +30,14 @@
 }
 
 .feature svg {
-  color: var(--neon-green);
+  color: var(--sky-blue);
   flex-shrink: 0;
 }
 
 .feature h4 {
   font-size: 1.1rem;
   margin-bottom: 0.25rem;
+  color: var(--text-dark);
 }
 
 .feature p {
@@ -45,16 +46,16 @@
 }
 
 .image-placeholder {
-  background: linear-gradient(135deg, var(--dark-gray), var(--medium-gray));
+  background: linear-gradient(135deg, var(--bg-white), var(--bg-light));
   border-radius: 20px;
   padding: 3rem;
   text-align: center;
-  border: 1px solid rgba(0, 255, 136, 0.2);
+  border: 1px solid var(--border-color);
 }
 
 .code-animation {
   font-size: 1.5rem;
-  color: var(--neon-green);
+  color: var(--sky-blue);
   font-family: monospace;
   animation: pulse 2s ease-in-out infinite;
 }
